@@ -5,10 +5,19 @@ int main(){
     char *ptr;
     ptr = vocales;
 
+
     for (int i = 0; i < 6; i++)
     {
+         
+        if (*(ptr + i) == 'o') {
+            *(ptr + i) = 'x'; 
+        }
+         
+      
+        printf("%c\t", *(ptr + i));
         
-        printf("%c\t", *(ptr+i));
     }
+
+    return 0;
     
 }
