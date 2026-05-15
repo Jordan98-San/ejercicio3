@@ -2,17 +2,16 @@
 
 int main(void){
     int a[] = {3,6,9,12,15,18};
-    int n = 42;
-    int* f;
-    f = &n;
-
+    
+    int* ptr;
+     ptr = &a[3];
    
     for (int i = 0; i < 6; i++)
     {
         printf("%d\t", a[i]);
     }
     
-    printf("\nn = %p\n", f);
-    printf("n = %d\n", *f);
+    printf("\na = %p\n", ptr);
+    printf("a = %d\n", *ptr);
     return 0;
 }
