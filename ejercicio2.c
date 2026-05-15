@@ -7,7 +7,7 @@ int main() {
     printf("%d bytes(s) ",  j);
 
 
-     printf("This computing environment uses:\n");
+    printf("\nThis computing environment uses:\n");
     printf("%zu byte for chars\n", sizeof(char));
     printf("%zu bytes for shorts\n", sizeof(short int));
     printf("%zu bytes for ints\n", sizeof(int));
